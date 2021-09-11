@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 body {
-  color:white ;
   /*   
+  color:white ;
   background-color: black; */
   margin: 0;
-
 }
 
 code {
