@@ -26,8 +26,9 @@ function App() {
             type="text"
             className="bg-white dark:bg-gray-600 dark:text-white mx-0 min-w-full rounded p-1 my-3 "
             placeholder="Search a Coin"
+            onChange = {e => setSearch(e.target.value)}
           />
-          <TableCoins coins={coins} />
+          <TableCoins coins={coins}  search ={search} />
         </div>
       </div>
     </div>
